@@ -14,11 +14,11 @@ from diffusers import StableAudioPipeline
 # =========================
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-MUSICGEN_PATH = "/root/sfx/models/musicgen-medium"
-STABLE_AUDIO_PATH = "/root/sfx/models/stable-audio-open-1.0"
+MUSICGEN_PATH = "/root/MusicSfx-Fusion/models/musicgen-medium"
+STABLE_AUDIO_PATH = "/root/MusicSfx-Fusion/models/stable-audio-open-1.0"
 
-MIX_MODEL_PATH = "/root/sfx/best_model.pth"
-SCALER_PATH = "/root/autodl-tmp/models/scaler.pkl"
+MIX_MODEL_PATH = "/root/MusicSfx-Fusion/best_model.pth"
+SCALER_PATH = "/root/MusicSfx-Fusion/models/scaler.pkl"
 
 sr = 22050
 
@@ -143,7 +143,7 @@ def load_audio(audio_tuple):
     y = audio_tuple[1]
     sr_in = audio_tuple[0]
 
-    # 👉 转 float（核心修复）
+    # 转 float
     if y.dtype != np.float32:
         y = y.astype(np.float32)
 
@@ -151,11 +151,11 @@ def load_audio(audio_tuple):
         if np.max(np.abs(y)) > 1:
             y = y / 32768.0
 
-    # 👉 stereo → mono
+    # stereo → mono
     if y.ndim > 1:
         y = np.mean(y, axis=1)
 
-    # 👉 resample
+    # resample
     y = librosa.resample(y, orig_sr=sr_in, target_sr=sr)
 
     return y
