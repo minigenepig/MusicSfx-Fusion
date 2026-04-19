@@ -1,0 +1,95 @@
+(base) root@autodl-container-kmzddlce45-9a36bbb3:~/sfx# python train.py
+Epoch 001 | Train Loss: 0.7108 | Val Loss: 0.4898
+✅ Save best model
+Epoch 002 | Train Loss: 0.3329 | Val Loss: 0.2955
+✅ Save best model
+Epoch 003 | Train Loss: 0.2127 | Val Loss: 0.2251
+✅ Save best model
+Epoch 004 | Train Loss: 0.1596 | Val Loss: 0.1898
+✅ Save best model
+Epoch 005 | Train Loss: 0.1380 | Val Loss: 0.1649
+✅ Save best model
+Epoch 006 | Train Loss: 0.1267 | Val Loss: 0.1557
+✅ Save best model
+Epoch 007 | Train Loss: 0.1199 | Val Loss: 0.1525
+✅ Save best model
+Epoch 008 | Train Loss: 0.1150 | Val Loss: 0.1439
+✅ Save best model
+Epoch 009 | Train Loss: 0.1161 | Val Loss: 0.1385
+✅ Save best model
+Epoch 010 | Train Loss: 0.1102 | Val Loss: 0.1396
+⚠️ No improvement (1/10)
+Epoch 011 | Train Loss: 0.1053 | Val Loss: 0.1349
+✅ Save best model
+Epoch 012 | Train Loss: 0.1054 | Val Loss: 0.1339
+✅ Save best model
+Epoch 013 | Train Loss: 0.0993 | Val Loss: 0.1360
+⚠️ No improvement (1/10)
+Epoch 014 | Train Loss: 0.0976 | Val Loss: 0.1308
+✅ Save best model
+Epoch 015 | Train Loss: 0.0990 | Val Loss: 0.1312
+⚠️ No improvement (1/10)
+Epoch 016 | Train Loss: 0.0991 | Val Loss: 0.1252
+✅ Save best model
+Epoch 017 | Train Loss: 0.0959 | Val Loss: 0.1249
+✅ Save best model
+Epoch 018 | Train Loss: 0.0932 | Val Loss: 0.1242
+✅ Save best model
+Epoch 019 | Train Loss: 0.0931 | Val Loss: 0.1243
+⚠️ No improvement (1/10)
+Epoch 020 | Train Loss: 0.0922 | Val Loss: 0.1267
+⚠️ No improvement (2/10)
+Epoch 021 | Train Loss: 0.0933 | Val Loss: 0.1254
+⚠️ No improvement (3/10)
+Epoch 022 | Train Loss: 0.0903 | Val Loss: 0.1319
+⚠️ No improvement (4/10)
+Epoch 023 | Train Loss: 0.0905 | Val Loss: 0.1235
+✅ Save best model
+Epoch 024 | Train Loss: 0.0920 | Val Loss: 0.1294
+⚠️ No improvement (1/10)
+Epoch 025 | Train Loss: 0.0910 | Val Loss: 0.1232
+✅ Save best model
+Epoch 026 | Train Loss: 0.0882 | Val Loss: 0.1235
+⚠️ No improvement (1/10)
+Epoch 027 | Train Loss: 0.0861 | Val Loss: 0.1248
+⚠️ No improvement (2/10)
+Epoch 028 | Train Loss: 0.0906 | Val Loss: 0.1234
+⚠️ No improvement (3/10)
+Epoch 029 | Train Loss: 0.0880 | Val Loss: 0.1221
+✅ Save best model
+Epoch 030 | Train Loss: 0.0838 | Val Loss: 0.1275
+⚠️ No improvement (1/10)
+Epoch 031 | Train Loss: 0.0851 | Val Loss: 0.1229
+⚠️ No improvement (2/10)
+Epoch 032 | Train Loss: 0.0861 | Val Loss: 0.1268
+⚠️ No improvement (3/10)
+Epoch 033 | Train Loss: 0.0842 | Val Loss: 0.1278
+⚠️ No improvement (4/10)
+Epoch 034 | Train Loss: 0.0857 | Val Loss: 0.1236
+⚠️ No improvement (5/10)
+Epoch 035 | Train Loss: 0.0825 | Val Loss: 0.1254
+⚠️ No improvement (6/10)
+Epoch 036 | Train Loss: 0.0854 | Val Loss: 0.1206
+✅ Save best model
+Epoch 037 | Train Loss: 0.0820 | Val Loss: 0.1265
+⚠️ No improvement (1/10)
+Epoch 038 | Train Loss: 0.0838 | Val Loss: 0.1271
+⚠️ No improvement (2/10)
+Epoch 039 | Train Loss: 0.0821 | Val Loss: 0.1268
+⚠️ No improvement (3/10)
+Epoch 040 | Train Loss: 0.0808 | Val Loss: 0.1226
+⚠️ No improvement (4/10)
+Epoch 041 | Train Loss: 0.0821 | Val Loss: 0.1293
+⚠️ No improvement (5/10)
+Epoch 042 | Train Loss: 0.0785 | Val Loss: 0.1224
+⚠️ No improvement (6/10)
+Epoch 043 | Train Loss: 0.0784 | Val Loss: 0.1260
+⚠️ No improvement (7/10)
+Epoch 044 | Train Loss: 0.0796 | Val Loss: 0.1232
+⚠️ No improvement (8/10)
+Epoch 045 | Train Loss: 0.0829 | Val Loss: 0.1354
+⚠️ No improvement (9/10)
+Epoch 046 | Train Loss: 0.0814 | Val Loss: 0.1270
+⚠️ No improvement (10/10)
+🛑 Early stopping triggered
+✅ 训练完成 & 已保存模型
