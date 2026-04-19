@@ -12,6 +12,28 @@
 伪标签构建（无需人工标注）
 目标是从生成音乐走向生成完整声音场景。
 
+## 🚀 Quick Start
+
+Follow the steps below to set up and run the project.
+
+#### 1. Download MusicGen-Medium
+
+```bash
+python download_musicgen.py
+```
+
+#### 2. Download Stable Audio Open 1.0
+
+```bash
+python download_stableaudio.py
+```
+
+#### 3. Run the Application
+
+```bash
+python app.py
+```
+
 ## References
 
 This project is inspired by:
