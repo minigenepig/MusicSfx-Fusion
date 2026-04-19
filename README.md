@@ -1,20 +1,24 @@
-# MusicSfx-Fusion：音乐生成与音效融合
+# MusicSfx-Fusion: Music Generation and Sound Effect Fusion 
 
-本项目整体围绕三个模块展开：音乐生成、环境音生成、音频合成。
+**MusicSfx-Fusion:** 音乐生成与音效融合 Gradio 平台
 
-模型组合：MusicGen 音乐生成 + AudioLDM 2 音效生成
+打开 Gradio 页面后分别输入音乐和音效 prompt，可直接聆听或保存融合渲染后的音频。
 
-音频融合优化：
+This project is structured around three core modules: music generation, environmental sound generation, and audio synthesis.
 
-时间对齐（长度匹配）
-淡入淡出（提升自然度）
-混音参数学习（自动 gain / EQ / reverb）
-伪标签构建（无需人工标注）
-目标是从生成音乐走向生成完整声音场景。
+Model composition: MusicGen for music generation + Stable Audio Open 1.0 for sound effect generation.
+
+Audio fusion optimization includes:
+- Temporal alignment (length matching)
+- Fade-in and fade-out (for improved naturalness)
+- Mixing parameter learning (automatic gain / EQ / reverb)
+- Pseudo-label construction (no manual annotation required)
+
+The goal is to move beyond standalone music generation toward generating complete auditory scenes.
 
 ## 🚀 Quick Start
 
-Follow the steps below to set up and run the project.
+Follow the four steps below to set up and run the project.
 
 #### 1. Download MusicGen-Medium
 
@@ -28,6 +32,12 @@ python download_musicgen.py
 python download_stableaudio.py
 ```
 
+#### 📦 Requirements
+
+```bash
+pip install librosa transformers accelerate soundfile gradio diffusers scipy torchsde
+```
+
 #### 3. Run the Application
 
 ```bash
@@ -36,5 +46,4 @@ python app.py
 
 ## References
 
-This project is inspired by:
-- https://github.com/minigenepig
+This project is inspired by: https://github.com/minigenepig
